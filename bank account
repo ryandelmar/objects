@@ -1,0 +1,6 @@
+var user = prompt("how much would you like to withdraw?")
+var bankAccount = {};
+bankAccount["name"] = "21savage";
+bankAccount["balance"] = 12345678;
+bankAccount["balance"] -=user
+window.alert(bankAccount["balance"])
